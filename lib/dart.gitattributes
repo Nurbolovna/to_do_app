@@ -1,6 +1,6 @@
-# Force Dart files to be counted as Dart
-*.dart linguist-language=Dart
-
-# Optionally, mark any C++ files or directories as vendored if they are not part of your core project
 *.cpp linguist-vendored
 *.h   linguist-vendored
+
+# Explicitly mark Dart files as Dart
+*.dart linguist-language=Dart
+
